@@ -1,0 +1,6 @@
+services:
+  api:
+    image: marwanhawari/node-ts-express
+    restart: unless-stopped
+    ports:
+      - "5050:5050"
